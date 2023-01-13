@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <!-- swiper-bundle -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <!-- fontawsome icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- main style css link -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="productInfo.css" />
+
+    <title>Alex-Hookah-Store</title>
+  </head>
+  <body>
+    <!------------------------- Header Section START -->
+    <header>
+      <div class="warning">
+        <h3>
+          WARNING: This product contains NICOTINE. NICOTINE is an addictive
+          chemical.
+        </h3>
+      </div>
+      <nav>
+        <div class="navbar-container">
+          <div class="logo">
+            <a href="index.html"><span>Alex</span>-Hookah-Store</a>
+          </div>
+          <div class="navbar-right-container">
+            <div class="sign-in-up">
+              <a href="register.html"><i class="bi bi-person"></i></a>
+            </div>
+            <div class="main-cart">
+              <a href="cart.html"><i class="bi bi-cart"></i></a>
+              <div class="product-qty">0</div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="successAddToCart-container">
+        <div class="successAddToCart">Success...</div>
+      </div>
+    </header>
+
+    <!------------------------- Header Section END -->
+    <!---------------------------------------------------------------->
+    <!--------------------------- Main Section START -->
+
+    <main>
+      <div class="product-details-container"></div>
+    </main>
+    <!--------------------------- Main Section END -->
+    <!---------------------------------------------------------------->
+    <!---------------------------- Footer Section START -->
+    <footer>
+      <div class="footer-container">
+        <div class="call-us">
+          <p><i class="bi bi-telephone"></i>Call Free To Order</p>
+          <a href="#">+9720548731</a>
+        </div>
+
+        <div class="footer-menu">
+          <ul>
+            <li class="footer-link">
+              <div class="footer-drop-down" value="shop">Shop</div>
+              <ul class="sub-list">
+                <li><a href="">Hookah</a></li>
+                <li><a href="">Tabacco</a></li>
+                <li><a href="">Charcoal</a></li>
+                <li><a href="">Bowls</a></li>
+              </ul>
+            </li>
+            <li class="footer-link">
+              <div class="footer-drop-down" value="support">Support</div>
+              <ul class="sub-list">
+                <li><a href="">Contact Us</a></li>
+                <li><a href="">My Order</a></li>
+              </ul>
+            </li>
+            <li class="footer-link">
+              <div class="footer-drop-down" value="legal">Legal & Privacy</div>
+              <ul class="sub-list">
+                <li><a href="">Privacy policy</a></li>
+                <li><a href="">Accessibility</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-form">
+          <h3>Send message</h3>
+          <textarea
+            name=""
+            id=""
+            rows="10"
+            placeholder="Enter message"
+          ></textarea>
+          <button type="submit">Send</button>
+        </div>
+
+        <div class="location">
+          <p>We are located here</p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27270.6139935102!2d34.64297306751723!3d31.308533262153286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15027a48e4e9815f%3A0xa0de722f2791008e!2z15DXldek16fXmded!5e0!3m2!1siw!2sil!4v1672867796015!5m2!1siw!2sil"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+
+        <div class="copyright">
+          <p>Copyright &#169; 2022 Alex-Hookah-Store. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <!---------------------------- Footer Section END -->
+
+    <script src="data.js"></script>
+    <script src="productDetailsItem.js"></script>
+  </body>
+</html>
+
+<!-- <div class="product-image"><img src="images/hookah1.jfif" /></div>
+<div class="product-details">
+  <div class="name">
+    <p>Germany Hookah</p>
+  </div>
+  <div class="star-rating">
+    <button class="star">&#9734;</button>
+    <button class="star">&#9734;</button>
+    <button class="star">&#9734;</button>
+    <button class="star">&#9734;</button>
+    <button class="star">&#9734;</button>
+    <p class="current-rating">0 of 5</p>
+  </div>
+  <div class="description">
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi,
+      error. Impedit sed aperiam laudantium incidunt! Illum, corporis.
+      Facilis recusandae molestiae tenetur quisquam, asperiores tempore
+      rerum, totam officiis, autem dolorem itaque.
+    </p>
+  </div>
+  <div class="price">
+    <h2>$240</h2>
+  </div>
+  <div class="details-form">
+    <div class="select hookah-select">
+      <label for="hookah">Hookah<span>*</span></label>
+      <select name="hookah" id="hookah">
+        <option value="select">Select please</option>
+        <option value="silver">Silver dark</option>
+        <option value="metal">Metal dark</option>
+      </select>
+    </div>
+    <div class="select tabacco-select">
+      <label for="tabacco">Tabacco</label>
+      <select name="tabacco" id="tabacco">
+        <option value="select">Select please</option>
+        <option value="silver">Silver dark</option>
+        <option value="metal">Metal dark</option>
+      </select>
+    </div>
+    <div class="select charcoal-select">
+      <label for="charcoal">Charcoal</label>
+      <select name="charcoal" id="charcoal">
+        <option value="select">Select please</option>
+        <option value="silver">Silver dark</option>
+        <option value="metal">Metal dark</option>
+      </select>
+    </div>
+  </div>
+  <div class="in-stock">
+    <h3>In Stock</h3>
+    <i class="bi bi-check"></i>
+  </div>
+  <div class="select qty">
+    <label for="qty">Qty</label>
+    <select name="qty" id="qty">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+    </select>
+  </div>
+  <div class="add-to-cart-btn">
+    <button>Add To Cart</button>
+  </div>
+</div> -->

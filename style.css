@@ -1,0 +1,21 @@
+@import 'reset.css';
+@import 'media_query/md-desktops.css';
+@import 'media_query/md-laptop.css' screen and (max-width:1024px);
+@import 'media_query/md-tablets.css' screen and (max-width:768px);
+@import 'media_query/md-mobiles.css' screen and (max-width:481px);
+
+/* ---------------Navbar style START-------------------*/
+
+/* ---------------Navbar style END-------------------*/
+
+/* --------------------------------------------------------------------------------------- */
+
+/* ---------------Main style START-------------------*/
+
+
+/* ---------------Main style END-------------------*/
+/* --------------------------------------------------------------------------------------- */
+
+/* ---------------Footer style START-------------------*/
+
+/* ---------------Footer style END-------------------*/
