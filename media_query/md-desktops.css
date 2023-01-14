@@ -16,7 +16,7 @@ header {
   max-width: 100%;
   min-height: 40px;
   text-align: center;
-  background-color: var(--bs-black2);
+  background-color: var(--bs-black1);
   padding: 0px 10px;
 }
 .warning h3 {
@@ -152,7 +152,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--bs-grey2);
+  background-color: var(--bs-black1);
   height: 70px;
   gap: 10px;
 }
@@ -165,7 +165,7 @@ nav {
 
 .main-menu ul .main-list a {
   color: var(--bs-white2);
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   padding: 0px 40px;
 }
 .main-menu ul .main-list .sub-ul {
@@ -627,6 +627,17 @@ footer {
   background-color: var(--bs-black1);
   border: 2px solid var(--bs-white2);
   color: var(--bs-white2);
+}
+.success-send-msg {
+  display: none;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.146);
+  font-size: 1.125rem;
+  font-weight: bold;
+  color: green;
+}
+.success-send-msg-show {
+  display: inline-block;
 }
 .location {
   width: 100%;

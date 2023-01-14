@@ -64,7 +64,7 @@
       <div class="main-menu">
         <ul class="main-ul">
           <li class="main-list">
-            <a href="#prodcts" class="link">Hookah</a>
+            <a href="#prodcts" class="link" value="hookah">Hookah</a>
             <ul class="sub-ul">
               <li><a href="#prodcts" value="germany">Germany Hookah</a></li>
               <li><a href="#prodcts" value="italy">Italy Hookah</a></li>
@@ -72,7 +72,7 @@
             </ul>
           </li>
           <li class="main-list">
-            <a href="#prodcts" class="link">Tobacco</a>
+            <a href="#prodcts" class="link" value="tabacco">Tobacco</a>
             <ul class="sub-ul">
               <li><a href="#prodcts" value="fumary">Fumary Tobacco</a></li>
               <li><a href="#prodcts" value="alfaher">Al-faher Tobacco</a></li>
@@ -80,7 +80,7 @@
             </ul>
           </li>
           <li class="main-list">
-            <a href="#prodcts" class="link">Charcoal</a>
+            <a href="#prodcts" class="link" value="charcoal">Charcoal</a>
             <ul class="sub-ul">
               <li><a href="#prodcts" value="coconut">Coconut Charcoal</a></li>
               <li><a href="#prodcts" value="hardwood">Hardwood Charcoal</a></li>
@@ -88,7 +88,7 @@
             </ul>
           </li>
           <li class="main-list">
-            <a href="#prodcts" class="link">Bowls</a>
+            <a href="#prodcts" class="link" value="bowls">Bowls</a>
             <ul class="sub-ul">
               <li><a href="#prodcts" value="metal">Metal Bowls</a></li>
               <li><a href="#prodcts" value="glass">Glass Bowls</a></li>
@@ -100,6 +100,7 @@
           <a href="register.html"
             ><i class="bi bi-person"></i>Sign In / Register</a
           >
+          <a href="about.html"><i class="bi bi-info-circle"></i>About</a>
           <a href="contact.html"><i class="bi bi-telephone"></i>Contact Us</a>
           <a href="cart.html"><i class="bi bi-cart"></i>Cart</a>
         </div>
@@ -145,24 +146,24 @@
             <li class="footer-link">
               <div class="footer-drop-down" value="shop">Shop</div>
               <ul class="sub-list">
-                <li><a href="">Hookah</a></li>
-                <li><a href="">Tabacco</a></li>
-                <li><a href="">Charcoal</a></li>
-                <li><a href="">Bowls</a></li>
+                <li><a href="#prodcts">Hookah</a></li>
+                <li><a href="#prodcts">Tabacco</a></li>
+                <li><a href="#prodcts">Charcoal</a></li>
+                <li><a href="#prodcts">Bowls</a></li>
               </ul>
             </li>
             <li class="footer-link">
               <div class="footer-drop-down" value="support">Support</div>
               <ul class="sub-list">
+                <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
-                <li><a href="">My Order</a></li>
+                <li><a href="cart.html">My Order</a></li>
               </ul>
             </li>
             <li class="footer-link">
               <div class="footer-drop-down" value="legal">Legal & Privacy</div>
               <ul class="sub-list">
-                <li><a href="">Privacy policy</a></li>
-                <li><a href="">Accessibility</a></li>
+                <li><a href="PrivacyPolicy.html">Privacy policy</a></li>
               </ul>
             </li>
           </ul>
@@ -171,12 +172,15 @@
         <div class="footer-form">
           <h3>Send message</h3>
           <textarea
+            id="msg"
             name="msg"
             id="msg"
             rows="10"
             placeholder="Enter message"
+            value="msg"
           ></textarea>
           <button type="submit">Send</button>
+          <div class="success-send-msg">Successfuly...</div>
         </div>
 
         <div class="location">

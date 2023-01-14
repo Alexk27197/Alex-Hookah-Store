@@ -7,7 +7,28 @@ let menu = document.querySelector(".mobile-menu"),
   trendingProducts = document.querySelector(".trending-products"),
   trendingLink = document.querySelector(".trending a"),
   searchProducts = document.querySelector(".search input"),
-  mainCartContainer = document.querySelector(".main-cart");
+  mainCartContainer = document.querySelector(".main-cart"),
+  footerMsgBtnSubmit = document.querySelector(".footer-form button"),
+  successSendMsg = document.querySelector(".success-send-msg");
+
+let msgStr = document.getElementById("msg");
+strMsgArr = [];
+footerMsgBtnSubmit.addEventListener("click", () => {
+  strMsgArr.push(`${msgStr.value}`);
+  msgStr.value = "";
+  console.log(strMsgArr);
+  successSendMsg.classList.add("success-send-msg-show");
+  setInterval(() => {
+    successSendMsg.classList.remove("success-send-msg-show");
+  }, 2000);
+
+  clearInterval();
+
+  if (strMsgArr.length >= 20) {
+    strMsgArr = [];
+    console.log(strMsgArr, "ze ahrei nikoi");
+  }
+});
 
 //menu open/close
 function openAndCloseMenu() {
