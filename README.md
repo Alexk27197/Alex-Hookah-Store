@@ -2,7 +2,7 @@
 
 Hello! This is my very first project after diving into a full-stack course. Built primarily using HTML, CSS, and JavaScript, this project showcases the initial skills and concepts I grasped during the first two months of my full-stack journey.
 
-![Website Screenshot](PASTE_SCREENSHOT_LINK_HERE)  <!-- You can add a screenshot of your website here. Just replace 'PASTE_SCREENSHOT_LINK_HERE' with the actual link of your screenshot after you upload it to GitHub or any image hosting service. -->
+![Website Screenshot](C:\Users\kogan\OneDrive\שולחן העבודה\hookahStoreScreenshot.JPG)  <!-- You can add a screenshot of your website here. Just replace 'PASTE_SCREENSHOT_LINK_HERE' with the actual link of your screenshot after you upload it to GitHub or any image hosting service. -->
 
 ## Live Demo 🌍
 
